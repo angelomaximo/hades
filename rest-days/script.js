@@ -22,4 +22,14 @@ for (let i = 0; i < localStorage.length; i++) {
 
 
     lsOutput.innerHTML += `${key}: ${value}<br />`;
-}
+};
+
+const clear = document.getElementById("clear");
+
+clear.onclick = () => {
+    localStorage.clear();
+    location.reload();
+};
+
+
+btnInsert.on
