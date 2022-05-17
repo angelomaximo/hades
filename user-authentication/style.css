@@ -1,0 +1,101 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    color: #fff;
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    background-color: #004f63;
+    background-image: url(../img/network.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.container {
+    background-color: rgba(18, 18, 18, 60%);
+    padding: 36px 26px;
+    padding-bottom: 46px;
+    width: 55vw;
+    max-width: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 26px;
+    border-radius: 8px;
+    /* box-shadow: 0 0 40px #314755; */
+    text-align: center;
+}
+
+button {
+    padding: 16px 0;
+    cursor: pointer;
+    border: none;
+    border-radius: 6px;
+    color: #fff;
+    background-color: #0795B7;
+    margin-top: 16px;
+    font-weight: 600;
+    width: 90%;
+}
+
+button:hover {
+    transition: 0.2s;
+    background-image: linear-gradient(to right, #1bbde5 0%, #1bbde5 51%, #1bbde5 100%);
+    box-shadow: 0 0 15px #375b71;
+}
+
+input {
+    padding: 15px 0px;
+    width: 90%;
+    background-color: transparent;
+    border: 2px solid transparent;
+    border-bottom: 2px solid #333;
+    color: #fff;
+    caret-color: #fff;
+    font-size: 16px;
+    outline: none;
+}
+
+input:hover {
+    border-bottom: 2px solid #406b6b;
+}
+
+input:hover::placeholder {
+    color: #406b6b;
+}
+
+h2 {
+    margin-bottom: 8px;
+}
+
+img {
+    height: 25vh;
+    width: auto;
+    align-self: center;
+}
+
+a {
+    color: rgba(7, 149, 183, 70%);
+}
+
+.container a {
+    margin-top: 16px;
+}
+
+span {
+    color:#0795B7;
+    font-weight: 100;
+}
